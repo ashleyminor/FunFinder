@@ -12,6 +12,8 @@
 		AB2D0CE0229099DC0020B20B /* FunFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB2D0CDE229099DC0020B20B /* FunFinder.xcdatamodeld */; };
 		AB2D0CE2229099E80020B20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2D0CE1229099E80020B20B /* Assets.xcassets */; };
 		AB2D0CE5229099E80020B20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2D0CE3229099E80020B20B /* LaunchScreen.storyboard */; };
+		AB2D0CED2290A5270020B20B /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D0CEC2290A5270020B20B /* AddPhotoViewController.swift */; };
+		AB2D0CEF2290D4150020B20B /* PhotoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D0CEE2290D4150020B20B /* PhotoTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AB2D0CE1229099E80020B20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2D0CE4229099E80020B20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB2D0CE6229099E80020B20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2D0CEC2290A5270020B20B /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		AB2D0CEE2290D4150020B20B /* PhotoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				AB2D0CD7229099DC0020B20B /* AppDelegate.swift */,
 				AB2D0CDB229099DC0020B20B /* Main.storyboard */,
+				AB2D0CEE2290D4150020B20B /* PhotoTableTableViewController.swift */,
 				AB2D0CE1229099E80020B20B /* Assets.xcassets */,
 				AB2D0CE3229099E80020B20B /* LaunchScreen.storyboard */,
 				AB2D0CE6229099E80020B20B /* Info.plist */,
 				AB2D0CDE229099DC0020B20B /* FunFinder.xcdatamodeld */,
+				AB2D0CEC2290A5270020B20B /* AddPhotoViewController.swift */,
 			);
 			path = FunFinder;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2D0CD8229099DC0020B20B /* AppDelegate.swift in Sources */,
+				AB2D0CED2290A5270020B20B /* AddPhotoViewController.swift in Sources */,
 				AB2D0CE0229099DC0020B20B /* FunFinder.xcdatamodeld in Sources */,
+				AB2D0CEF2290D4150020B20B /* PhotoTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
